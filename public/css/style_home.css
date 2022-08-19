@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+
+
+footer {
+
+    width:100%;
+}
+/*=============== Header ===========*/
+
+
+.logo__img{
+    height: 80px;
+    margin: 10px 0px 10px 30px;
+}
+
+.user-link{
+    color: rgba(255,255,255,.5);
+}
+
+
+/* =========MAIN============ */
+
+.main{
+
+    background-color: #f5f8fa;
+    padding-bottom: 1.5rem;
+}
+
+/* =========Thông Tin Công Ty============== */
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+/* h3{
+    font-weight: 600;
+} */
+
+body{
+    margin: 0;
+    font-size: .85rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #f5f8fa;
+    /* overflow: hidden; */
+}
+
+.navbar-laravel
+{
+    box-shadow: 0 2px 4px rgba(0,0,0,.04);
+}
+
+.navbar-brand , .nav-link, .my-form, .login-form
+{
+    font-family: Raleway, sans-serif;
+}
+
+.my-form
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.my-form .row
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.login-form
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.login-form .row
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+
+
+
+
+
+.category .navbar-nav{
+    flex-direction: row;
+}
+
+.navbar-brand{
+    font-size: 1rem;
+}
+
+.btn{
+    font-size: 0.85rem;
+}
+
+.row #sup_amout,#di_price{
+    height: 37px;
+}
+
+.import_add{
+    margin-bottom: 0.55rem;
+}
+
+.dropdown-item:hover{
+    background-color:#6c757d!important;
+}
